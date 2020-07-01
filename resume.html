@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>ahr gallery</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162291240-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'UA-162291240-1');
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="Stylesheets/styles_gallery.css">
+<head>
+    <title>Allison Ryu</title>
+    <!-- <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162291240-1');
+    </script> -->
+    <link rel="stylesheet" href="Stylesheets/styles_resume.css">
     <meta charset="utf-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    
-    
-</head>
-<body>
-    <!-- <h2> wtf why won't this work
-        <center>gallery</center>
-    </h2> -->
-    <div class="dark-bg-wrap1"></div>
-    <div class="light-bg-wrap1"></div>
-    <!-- <div class="menu-wrap">
-        <div class="menu">
-            <div>
-                <a href="https://www.instagram.com/kangaryu12" target="_blank">instagram</a>
-            </div>
-            <div>
-                <a href="https://www.youtube.com/channel/UCRMOziAh2paMa1pQdy3Xj4A" target="_blank" target="_blank">youtube</a>
-            </div>
-            <div>
-                <a href="" target="_blank">resume</a>
-            </div>
-            <div>
-                <a href="https://open.spotify.com/user/1270275029?si=pv2dX8YVRN6wfioHuTjerA" target="_blank">spotify</a>
-            </div>
-        </div>
-    </div>
-    <div class="scroller">scroll</div>
-    <div class="nav-wrap-top">
-        <div class="home"><a href="main.html">kangaryu12</a></div>
-        <div class="nav-toggle-wrap">
-            <div class="nav-toggle rotate">✕</div>
-        </div>
-        <div class="nav-links">
-            
-            <span><a href="https://www.instagram.com/kangaryu12" target="_blank">instagram</a></span> 
-            <span><a href="https://www.youtube.com/channel/UCRMOziAh2paMa1pQdy3Xj4A" target="_blank">youtube</a></span>
-            <span><a href="https://open.spotify.com/user/1270275029?si=pv2dX8YVRN6wfioHuTjerA" target="_blank">spotify</a></span>
-            <span><a href="" target="_blank">resume</a></span>
-        </div>
-    </div> -->
-    <div class="nav-wrap-bottom">
-        <div class="tears">
-         <!--(´༎ຶོρ༎ຶོ`)-->
-            <img src="huji/stars.svg">
-        </div>
-        <div class="info-wrap">
-            <div class="info-icon">i</div>
-            <div class="info-credits">
-                base code by <a href="https://marcd.co" target="_blank">marcd</a>
-            </div>
-        </div>
-    </div>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <div id="main" class="content-wrap"> 
-        <div class="content">
-           <h1>coming soon</h1>
+    <!-- <script src="jquery-3.4.0.min.js"></script> -->
+    <!-- <script src="Scripts/scripts_resume.js"></script> -->
+    <!-- BOOTSTRAP CSS/SCRIPTS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: white;">
+        <a class="navbar-brand" href="#intro">allison ryu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">about</a> <!-- <span class="sr-only">(current)</span> -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">resume</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav" style="float: right;">
+                <li class="nav-item">
+                    <a class="button" style="background-color: #b4a1ff !important; color: white !important;" target="_blank" href="main.html">hujigram</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- INTRO -->
+    <div class="container" id="intro" style="background-color: #b4a1ff;">
+        <div class="row">
+            <div>
+                <h1 style="padding-top: 20vh;">hi, my name is <strong>allison ryu</strong></h1>
+                <h1>& i want to creatively code the future</h1>
+                <h3>what does that mean?</h3>
+                <br>
+                <a class="button" href="#about">learn more</a>
+            </div>
+            <!-- <div class="col-5">
+                <img src="huji/IMG_2002.JPG" style="width: 100%; margin-left: 2vh;">
+            </div> -->
         </div>
     </div>
+   
+    <!-- ABOUT -->
+    <div class="container" id="about" style="background-color: aqua;">hello</div>
+
 </body>
+
 </html>
 <script src="Scripts/scripts.js"></script>
