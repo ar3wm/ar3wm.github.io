@@ -5,32 +5,30 @@ body {
     padding-top: 100px;
 }
 
-.container {
-    width: 100%;
-    height: 93vh;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.intro {
+    padding-top: 5rem;
+    padding-bottom: 15rem;
 }
-@media (min-width: 576px) {
-    .container {
-    max-width: 540px; } }
-@media (min-width: 768px) {
-    .container {
-    max-width: 720px; } }
-@media (min-width: 992px) {
-    .container {
-    max-width: 960px; } }
-@media (min-width: 1200px) {
-    .container {
-    max-width: 1140px; } }
+
+.aboutme, .projects, .contact {
+    padding-top: 5rem;
+    /* padding-bottom: 10rem; */
+}
+
+.contact {
+    padding-bottom: 10rem;
+    text-align: center;
+}
 
 h1 {
     color: white;
 }
 
 h3 {
+    color: white;
+}
+
+h4, h6 {
     color: white;
 }
 
@@ -46,75 +44,29 @@ h3 {
     border-radius: 10px;
     width: 25%;
 }
+
 a {
     color: rgb(173, 41, 255) !important;
     text-decoration: none !important;
 }
+
 a:hover {
-    /* background-color: rgb(173, 41, 255) !important; */
     color: rgb(22, 146, 255) !important;
 }
+
 .button:hover {
-    /* background-color: rgb(173, 41, 255) !important; */
     color: rgb(22, 146, 255) !important;
-    /* border: white; */
 }
 
-/* li {
-    list-style-type: none;
-    margin: 0 2vw;
-    font-size: 3vh;
+.hyperlink {
+    color: white !important;
+    text-decoration: underline !important;
 }
 
-a {
-    text-decoration: none;
+a.hyperlink:hover, a.project-link:hover {
+    color: rgb(203, 0, 156) !important;
 }
 
-nav {
-    width: 100vw;
-    background-color: #726aba;
+.project-link {
+    color: white !important;
 }
-
-ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.navlink {
-    text-decoration: none;
-    color: white;
-    padding: 2vw;
-}
-
-.navlink:hover {
-    color: #C6E9FF;
-}
-
-button {
-    display: none;
-
-}
-
-@media only screen and (max-width: 600px) {
-    ul {
-      flex-direction: column;
-    }
-    
-    li {
-      margin: 0;
-    }
-    a {
-      display: block;
-    }
-    button {
-        display: block;
-        padding: 2vw;
-        font-size: 3vh;
-        background-color: #726aba;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        align-self: flex-start;
-      }
-  } */

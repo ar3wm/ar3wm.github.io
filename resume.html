@@ -64,7 +64,7 @@
     </nav>
 
     <!-- INTRO -->
-    <div class="container" id="intro" style="background-color: #b4a1ff;">
+    <div class="container intro" id="intro">
         <div class="row">
             <div>
                 <h1 style="padding-top: 20vh;">hi, my name is <strong>allison ryu</strong></h1>
@@ -80,8 +80,65 @@
     </div>
    
     <!-- ABOUT -->
-    <div class="container" id="about" style="background-color: aqua;">hello</div>
+    <div class="container aboutme" id="about">
+        <div class="row">
+            <div class="col-7">
+                <h4><strong><u>Professional Interests</u></strong></h4>
+                <h6>I am an incoming Software Development Engineer at Amazon. I graduated from the University of Virginia in 2020 with a Bachelor of Arts in Computer Science.</h6>
+                <h6>I have previous work experience at Capital One as a summer tech development intern, primarily creating an application to append to my team's internal web resource. My work involved full-stack development and work with AWS Lambda and DynamoDB.</h6>
+                <h6>I am currently interested in backend or full stack development, with a stronger preference for the former. I do not have much experience in machine learning or data science, but I would love to learn about and gain hands-on experience in these fields! I am a responsible and efficient worker, as well as a fast learner.</h6>
+                <br>
+                <h4><strong><u>Personal Interests</u></strong></h4>
+                <h6>In my free time, I enjoy exploring artistic and creative outlets, or simply admiring the genius of other creatives, be it through music, photography, or art. I hope to find a happy medium between the academic and creative sides of my mind, and create work that exhibits this.</h6>
+                <!-- <h6>One of my biggest inspirations for creative coding comes from the exhibits I have seen at <a class="hyperlink" href="https://artechouse.com" target="_blank">Artechouse</a>, an exhibition that showcases the marriage between art, science, and technology.
+                    Recently, I have become interested in learning about React particle animation, which vaguely reminds me of the dynamic artwork and animations I saw at Artechouse; I believe that this is the perfect introduction to creating my own types of artwork through coding, as well as conveying data analysis in a unique, artistic, and compelling way.</h6>  -->
+                <h6>Inspired by the exhibits I've visited at <a class="hyperlink" href="https://artechouse.com" target="_blank">Artechouse</a>, I have started to explore React particle animation. Through this, I hope to begin creating my own artwork through coding.</h6>
+                <h6>I also love listening to music, so Spotify analytics have become of huge interest to me. I am currently in the process of creating a Spotify application that analyzes a user's listening history!</h6>
+            </div>
+            <div class="col-5">
+                <img src="huji/IMG_2002.JPG" style="width: 100%; margin-left: 2vh;">
+            </div>
+        </div>
+    </div>
 
+    <!-- PROJECTS -->
+    <div class="container projects" id="projects">
+        <div class="row">
+            <h4><strong><u>What I've Worked On</u></strong></h4>
+        </div>
+        <div class="row">
+            <h6>you can see all of my work in-depth on my <a class="hyperlink" href="https://github.com/ar3wm" target="_blank">github</a></h6>
+        </div>
+
+        <!-- DROP DOWN/COLLAPSIBLE PROJECT LIST -->
+        <div class="row">
+            <h5><a class="project-link" data-toggle="collapse" data-target="#ellipsis" href="#ellipsis" aria-expanded="false"><strong>Ellipsis</strong></a></h5>
+            <div id="ellipsis" class="collapse">
+                <p>Ellipsis is a collaborative story-writing platform where users can create stories, as well as contribute to other stories. Stories are written by several users, contribution by contribution, and these stories can be followed, liked, or disliked. The original creator of the story can publish (stop contributions) a story, or archive it.</p>
+                <p>Languages: HTML, PHP, SQL</p>
+                <a class="hyperlink" href="https://github.com/ar3wm/ellipsis" target="_blank">see the repo</a>
+            </div>
+        </div>  
+        <hr>
+        <div class="row">
+            <h5><a class="project-link" data-toggle="collapse" data-target="#student-springboard" href="#student-springboard" aria-expanded="false"><strong>Student Springboard</strong></a></h5>
+            <div id="student-springboard" class="collapse">
+                <p>Student Springboard is a convenient webpage where students can view and store all of their assignments, to do list items, their due dates, and the links to their favorite or most-visited websites.</p>
+                <p>Languages: HTML, CSS, Angular, PHP, SQL</p>
+                <a class="hyperlink" href="https://github.com/ar3wm/student-springboard" target="_blank">see the repo</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="container contact" id="contact">
+        <div>
+            <h4>Have an opportunity to share or simply want to chat?</h4>
+            <h6>I'd love to connect with you!</h6>
+            <br>
+            <a class="button" href="mailto:allison.ryu@gmail.com">Email me</a>
+        </div>
+    </div>
 </body>
 
 </html>
