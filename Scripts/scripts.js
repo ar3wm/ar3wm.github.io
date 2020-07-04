@@ -1,18 +1,19 @@
-$(document).ready(function(){
-        $(".choose-one").css("opacity" , "1");
+// $(document).ready(function(){
+//         $(".choose-one").css("opacity" , "1");
 
-    $("#audio-test").prop('muted', true);
-    $("#audio-test").hide();
-});
-$(".choices#47, .choices2#47").click(function() {
-    // try again or something
-    $(".choose-one").hide();
-    $(".try-again").css("opacity", "1");
-});
-$(".choices#23, .choices2#23").click(function(){
+//     $("#audio-test").prop('muted', true);
+//     $("#audio-test").hide();
+// });
+// $(".choices#47, .choices2#47").click(function() {
+//     // try again or something
+//     $(".choose-one").hide();
+//     $(".try-again").css("opacity", "1");
+// });
+// $(".choices#23, .choices2#23").click(function(){
+$(document).ready(function() {
     //alert("entered");
-        $(".choose-one").hide();
-        $(".try-again").hide();
+        // $(".choose-one").hide();
+        // $(".try-again").hide();
         $(".title-block-wrap").css("opacity", "1");
         $("#t1")[0].play();
         $("#t1")[0].pause();
@@ -40,7 +41,7 @@ $(".choices#23, .choices2#23").click(function(){
         $("#t12")[0].pause();
         $("#t13")[0].play();
         $("#t13")[0].pause();
-    $(".cover, .dark-bg-wrap1, .dark-bg-wrap2, .home, .nav-links, .tears").fadeIn(1000);
+    $(".cover, .dark-bg-wrap1, .dark-bg-wrap2, .home, .nav-links, .logo").fadeIn(1000);
     $(".cover, .dark-bg-wrap1, .info-wrap, .star").css("opacity", "1");
     $(".dark-bg-wrap2").css("opacity", ".5");
     $("body").css("height","1100vh");
@@ -86,7 +87,7 @@ $(".choices#23, .choices2#23").click(function(){
         $("#main > img:first-child").remove()
 }, 50);
 });
-$(".tears").click(function () {
+$(".logo").click(function () {
     $(".light-bg-wrap1, .light-bg-wrap2").toggleClass("lighten");
 });
 $(".info-icon").click(function () {
