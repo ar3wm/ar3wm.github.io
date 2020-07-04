@@ -20,15 +20,11 @@ body {
     text-align: center;
 }
 
-h1 {
-    color: white;
+.footer {
+    text-align: center;
 }
 
-h3 {
-    color: white;
-}
-
-h4, h6 {
+h1, h3, h4, h6, p {
     color: white;
 }
 
