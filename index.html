@@ -3,21 +3,14 @@
 
 <head>
     <title>Allison H. Ryu</title>
-    <!-- <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-162291240-1');
-    </script> -->
-    <link rel="stylesheet" href="Stylesheets/styles_resume.css">
+    <link rel="stylesheet" href="Stylesheets/styles.css">
     <meta charset="utf-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
     <!-- <script src="jquery-3.4.0.min.js"></script> -->
     <!-- <script src="Scripts/scripts_resume.js"></script> -->
-    <!-- BOOTSTRAP CSS/SCRIPTS -->
+    <!-- BOOTSTRAP CSS/JS SCRIPTS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -29,6 +22,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -55,16 +51,16 @@
                     <a class="nav-link" href="Images/Allison H Ryu Resume.pdf" target="_blank">resume</a>
                 </li>
             </ul>
-            <ul class="navbar-nav" style="float: right;">
+            <!-- <ul class="navbar-nav" style="float: right;">
                 <li class="nav-item">
                     <a class="button" style="background-color: #b4a1ff !important; color: white !important;" target="_blank" href="hujigram.html">hujigram</a>
                 </li>
-            </ul>
+            </ul> -->
         </div>
     </nav>
 
     <!-- INTRO -->
-    <div class="container intro" id="intro">
+    <div class="container intro" id="intro" data-aos="zoom-in" data-aos-duration="3000">
         <div class="row">
             <div>
                 <h1 style="padding-top: 20vh;">hi, my name is <strong>allison ryu</strong></h1>
@@ -77,7 +73,7 @@
     </div>
    
     <!-- ABOUT -->
-    <div class="container aboutme" id="about">
+    <div class="container aboutme" id="about" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out">
         <div class="row">
             <div class="col-7">
                 <h4><strong><u>Professional Interests</u></strong></h4>
@@ -93,18 +89,18 @@
                 <h6>I also love listening to music, so Spotify analytics have become of huge interest to me. I am currently in the process of creating a Spotify application that analyzes a user's listening history!</h6>
             </div>
             <div class="col-5">
-                <img src="huji/IMG_2002.JPG" style="width: 100%; margin-left: 2vh;">
+                <img src="Images/IMG_2002.JPG" style="width: 100%; margin-left: 2vh;">
             </div>
         </div>
     </div>
 
     <!-- PROJECTS -->
-    <div class="container projects" id="projects">
+    <div class="container projects" id="projects" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out">
         <div class="row">
             <h4><strong><u>What I've Worked On</u></strong></h4>
         </div>
         <div class="row">
-            <h6>you can see all of my work in-depth on my <a class="hyperlink" href="https://github.com/ar3wm" target="_blank">github</a></h6>
+            <h6>You can see all of my work in-depth on my <a class="hyperlink" href="https://github.com/ar3wm" target="_blank">GitHub</a></h6>
         </div>
 
         <!-- DROP DOWN/COLLAPSIBLE PROJECT LIST -->
@@ -123,6 +119,17 @@
                 <p>Student Springboard is a convenient webpage where students can view and store all of their assignments, to do list items, their due dates, and the links to their favorite or most-visited websites.</p>
                 <p>Languages: HTML, CSS, Angular, PHP, SQL</p>
                 <a class="hyperlink" href="https://github.com/ar3wm/student-springboard" target="_blank">source code</a>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <h5><a class="project-link" data-toggle="collapse" data-target="#hujigram" href="#hujigram" aria-expanded="false"><strong>Hujigram</strong></a></h5>
+            <div id="hujigram" class="collapse">
+                <p>Hujigram is a personal photoboard that I created, inspired by the singer Jeremy Zucker's promotional website for his album <i>love is not dying</i>. It showcases some of my favorite moments that I captured using the photo app <a class="hyperlink" href="https://apps.apple.com/us/app/huji-cam/id781383622" target="_blank">Huji</a>, which adds a '90s photo effect.</p>
+                <p>Languages: HTML, CSS, Javascript</p>
+                <a class="hyperlink" href="https://ar3wm.github.io/hujigram" target="_blank">see it live</a>
+                <br>
+                <a class="hyperlink" href="https://github.com/ar3wm/hujigram" target="_blank">source code</a>
             </div>
         </div>
     </div>
@@ -149,3 +156,6 @@
 
 </html>
 <script src="Scripts/scripts.js"></script>
+<script>
+    AOS.init();
+  </script>
