@@ -46,16 +46,16 @@ h1, h3, h4, h6, p {
 }
 
 a {
-    color: rgb(173, 41, 255) !important;
+    color: #b4a1ff !important;
     text-decoration: none !important;
 }
 
 a:hover {
-    color: rgb(22, 146, 255) !important;
+    color: rgb(146, 0, 250) !important;
 }
 
 .button:hover {
-    color: rgb(22, 146, 255) !important;
+    color: rgb(146, 0, 250) !important;
 }
 
 .hyperlink {
