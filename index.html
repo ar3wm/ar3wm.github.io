@@ -25,6 +25,15 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!-- PARTICLES.JS SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        // check if particlesjs loaded
+        particlesJS.load('particles-js', 'particles.json', function(){
+            console.log('particles.json loaded...');
+        });
+    </script>
+    
 </head>
 
 <body>
@@ -60,17 +69,19 @@
     </nav>
 
     <!-- INTRO -->
-    <div class="container intro" id="intro" data-aos="zoom-in" data-aos-duration="3000">
-        <div class="row">
-            <div>
-                <h1 style="padding-top: 20vh;">hi, my name is <strong>allison ryu</strong></h1>
-                <h1>& i want to commemorate life through technology</h1>
-                <h3>what does that mean?</h3>
-                <br>
-                <a class="button" href="#about">learn more</a>
+    <div id="particles-js">
+        <div class="container intro" id="intro" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="row">
+                <div>
+                    <h1 style="padding-top: 25vh;">hi, my name is <strong>allison ryu</strong></h1>
+                    <h1>& i want to commemorate life through technology</h1>
+                    <h3>what does that mean?</h3>
+                    <br>
+                    <a class="button" href="#about">learn more</a>
+                </div>
             </div>
         </div>
-    </div>
+    </div> 
    
     <!-- ABOUT -->
     <div class="container aboutme" id="about" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out">

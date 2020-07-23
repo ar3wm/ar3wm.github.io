@@ -6,7 +6,7 @@ body {
     background-color: #b4a1ff !important;
     color: white;
     margin: 0;
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 
 .intro {
@@ -69,4 +69,11 @@ a.hyperlink:hover, a.project-link:hover {
 
 .project-link {
     color: white !important;
+}
+
+#intro {
+    position: absolute;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+    padding-left: 5rem;
 }
