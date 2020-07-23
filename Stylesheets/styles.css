@@ -6,7 +6,7 @@ body {
     background-color: #b4a1ff !important;
     color: white;
     margin: 0;
-    /* padding-top: 100px; */
+    padding-top: 100px;
 }
 
 .intro {
@@ -75,5 +75,12 @@ a.hyperlink:hover, a.project-link:hover {
     position: absolute;
     padding-top: 5rem;
     padding-bottom: 15rem;
-    padding-left: 5rem;
+    /* padding-left: 5rem; */
+}
+
+#particles-js canvas { 
+        /* position: absolute; */
+        width: 100%;
+        height: 100%;
+        z-index: -1;
 }
